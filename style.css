@@ -202,6 +202,10 @@ section {
   gap: 1rem;
 }
 
+#profile .arrow {
+  right: 5rem;
+}
+
 /* ICONS */
 
 .icon {
