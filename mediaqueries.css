@@ -101,7 +101,6 @@
   }
 
   .nav-links {
-    flex-direction: column;
     gap: 0.5rem;
     text-align: center;
   }
@@ -122,5 +121,25 @@
 
   .text-container {
     text-align: justify;
+  }
+}
+
+@media screen and (max-height: 500px) {
+  section {
+    margin: 5rem 10rem;
+  }
+
+  #contact {
+    margin-top: 36vh;
+  }
+}
+
+@media screen and (max-height: 400px) {
+  section {
+    margin: 10rem 10rem;
+  }
+
+  #contact {
+    margin-top: 56vh;
   }
 }
